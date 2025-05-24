@@ -56,4 +56,3 @@ const typed = new Typed('.multiple-tex', {
     backDelay: 1000,
     loop: true
 });
-    
