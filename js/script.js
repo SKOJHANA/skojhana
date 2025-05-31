@@ -1,9 +1,9 @@
 /*============== toggle icon navbar ==================*/
-let menuicon = document.querySelector('#menu-icon');
+let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-menuicon.onclick = () => {
-    menuicon.clickList.toggle('bx-x');
+menuIcon.onclick = () => {
+    menuIcon.clickList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
 
@@ -31,7 +31,7 @@ let header =  document.querySelector('header');
 header.classList.ontoggle('sticky', window.scrollY > 100);
 
 /*============== remove toggle icon and navbar when click navbar link (scroll) ==================*/
-    menuicon.clickList.remove('');
+    menuIcon.clickList.remove('bx-x');
     navbar.classList.remove('active');
 };
 
@@ -49,8 +49,8 @@ ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 /*============== typed js ==================*/
-const typed = new Typed('.multiple-tex', {
-    strings: ['Frontend Developer', 'System Developer'],
+const typed = new Typed('.multiple-text', {
+    strings: ['Entrepreneur', 'Brand Strategist', 'IT Specialist'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
