@@ -36,17 +36,19 @@
         display: block;
     }
 
-    .navbar{
-        position: absolute;
-        top: 100%;
+    .navbar {
+        position: fixed; /* Keeps it visible */
+        top: 60px; /* Adjust this for better placement */
         left: 0;
-        max-width: 100%;
+        width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-        display: none;
+        display: none; /* Will be toggled via JS */
+        z-index: 999; /* Ensures it's on top */
     }
+
 
     .navbar.active{
         display: block;
