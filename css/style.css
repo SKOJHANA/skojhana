@@ -375,7 +375,7 @@ span{
     transition: 0.5s ease;
 }
 
-.footer-iconTop a:hover{
+.footer-iconTop a img:hover{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
