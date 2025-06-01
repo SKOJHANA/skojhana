@@ -32,9 +32,14 @@
 }
 
 @media (max-width: 768px){
-    #menu-icon{
+    #menu-icon {
         display: block;
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        z-index: 1001;
     }
+
 
     .navbar {
         position: fixed; /* Keeps it visible */
