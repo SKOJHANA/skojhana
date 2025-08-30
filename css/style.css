@@ -33,7 +33,7 @@ section{
     padding: 10rem 9% 2rem;
 }
 
-.header{
+..header{
     position: fixed;
     top: 0;
     left: 0;
@@ -379,5 +379,6 @@ span{
 .footer-iconTop a img:hover{
     box-shadow: 0 0 1rem var(--main-color);
 }
+
 
 
